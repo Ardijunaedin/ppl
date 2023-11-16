@@ -1,0 +1,159 @@
+{"intents": [
+    {"tag": "salam_ppdb",
+    "patterns": ["Hai", "Hi", "Halo", "Apa Kabar", "Selamat Pagi", "Selamat Siang", "Selamat Malam", "Salam", "Ping", "P"],
+    "responses": ["Halo! Selamat datang di PPDB SMK. Ada yang bisa saya bantu?", "Hai, selamat datang di PPDB SMK. Apa yang dapat saya bantu?"]
+    },
+    {"tag": "salam_islami",
+    "patterns": ["Assalamualaikum kak, assalamualaikum, assalamualaikum warohmatulloh, assalamualaikum wr.wb"],
+    "responses": ["Waalaikumussalam, ada yang bisa saya bantu?, waalaikumsalam wr.wb, waalaikumussalam warohmatulloh ada yang bisa saya bantu?"]
+    },
+    {"tag": "bye",
+     "patterns": ["Dadah", "Selamat Tinggal", "Dah", "Daah", "Semoga harimu menyenangkan", "Ok makasih", "Sampai Jumpa Lagi", "Ok bye", "hatur nuhun"],
+     "responses": ["Terima kasih telah menghubungi kami. Semoga harimu menyenangkan!","Terima kasih, telah menghubungi kami. Semoga informasi yang diberikan dapat membantu","Terima kasih telah menghubungi PPDB SMK Plus Al-Hasanah. Semoga sukses dalam proses pendaftaran Anda! Jangan ragu untuk bertanya jika Anda membutuhkan bantuan lebih lanjut."]
+    },
+    {"tag": "nama",
+     "patterns": ["nama kamu siapa?", "lu siapa?", "siapa sih lo?", "lu sape ?", "nama lo sape dah ?", "nama?"],
+     "responses": ["Nama saya BudiBot, salam kenal yaa! Saya bisa membantu anda melayani informasi seputar SMK Plus Al-Hasanah", "Halo, aku BudiBot!", "Kenalin, aku BudiBot!"]
+    },
+    {"tag": "pekerjaan",
+     "patterns": ["lu ngapain?", "pekerjaan kamu apa?", "lu kerja apa?", "tugas kamu apa?", "tugas lo ngapain?"],
+     "responses": ["Saya siap membantumu 24 jam", "Tugasku jadi asisten virtual di SMK Plus Al-Hasanah"]
+    },
+    {"tag": "kemampuan",
+     "patterns": ["kamu bisa apa?", "apa yang bisa anda lakukan?", "kamu bisa ngapain aja?", "lo bisa ngapain?", "apa kemampuan lo?"],
+     "responses": ["Saya bisa membantu anda mendapatkan informasi mengenai SMK Plus Al-Hasanah", "Saya memiliki informasi mengenai layanan di SMK Plus Al-Hasanah. Ada yang bisa dibantu?"]
+    },
+    {"tag": "pendaftaran",
+     "patterns": ["Bagaimana cara mendaftar?", "Proses pendaftaran PPDB SMK", "Apa syarat pendaftaran?", "Pendaftaran online SMK", "Batas waktu pendaftaran"],
+     "responses": ["Proses pendaftaran PPDB SMK dapat dilakukan secara online melalui situs resmi sekolah. Syarat dan batas waktu pendaftaran dapat ditemukan di situs web resmi sekolah."]
+    },
+    {"tag": "jurusan",
+     "patterns": ["Ada berapa jurusan yang tersedia?", "Jurusan yang ditawarkan SMK", "Jurusan favorit", "Pilihan jurusan", "Jurusan teknik", "Jurusan non-teknik", "Apa saja jurusannya?", "Jurusannya apa saja ya?"],
+     "responses": ["SMK Plus Al-Hasanah menawarkan lima jurusan: TKJ (Teknik Komputer Jaringan), TKR (Teknik Kendaraan Ringan), TBSM (Teknik Bisnis Sepeda Motor), FARMASI (Farmasi), dan TATA BOGA (Tata Boga). Anda dapat menemukan informasi lengkap tentang setiap jurusan di situs web resmi sekolah kami."]
+    },
+    {"tag": "jadwal",
+     "patterns": ["Kapan jadwal wawancara?", "Jadwal wawancara PPDB SMK Plus Al-Hasanah", "Tanggal berapa wawancaranya?", "Hari apa wawancaranya?"],
+     "responses": ["Jadwal wawancara PPDB SMK Plus Al-Hasanah akan diselenggarakan pada hari Sabtu, 25 November 2023. Mohon dipersiapkan segala sesuatunya ya"]
+    },
+    {"tag": "hasil",
+     "patterns": ["Kapan pengumuman hasil PPDB?", "Cara mengetahui hasil seleksi", "Pengumuman kelulusan PPDB SMK", "Hasil seleksi ujian PPDB"],
+     "responses": ["Pengumuman hasil PPDB akan diumumkan melalui situs web resmi sekolah dan pesan singkat. Pastikan Anda mengikuti petunjuk yang diberikan untuk mengetahui hasil seleksi."]
+    },
+    {"tag": "lokasi",
+     "patterns": ["Dimana lokasi sekolah?", "Alamat SMK", "Peta lokasi sekolah", "Sekolah terdekat dari sini"],
+     "responses": ["SMK Plus Al-Hasanah berlokasi di Jl. Raya Gunungtanjung KM.08 No.25 Tasikmalaya. Anda dapat menemukan peta lokasi sekolah di link Google Maps berikut ini : https://maps.app.goo.gl/koD6zJqTirYinzDp6. Jika Anda memerlukan bantuan dengan arah, jangan ragu untuk bertanya."]
+    },
+    {"tag": "kontak",
+     "patterns": ["Bagaimana cara menghubungi sekolah?", "Nomor telepon SMK", "Alamat email sekolah", "Kontak darurat SMK"],
+     "responses": ["Anda dapat menghubungi sekolah kami melalui telepon di 082218971203 (Anwar Sanusi, ST.) atau melalui email di smkplus.alhasanah@gmail.com , Untuk keadaan darurat, hubungi 085692171755."]
+    },
+    {"tag": "TKJ",
+     "patterns": ["Apa yang dipelajari di jurusan TKJ?", "Mata pelajaran TKJ", "Program studi TKJ", "Jurusan TKJ", "Detail TKJ"],
+     "responses": ["Jurusan TKJ (Teknik Komputer Jaringan) adalah jurusan yang mempelajari tentang jaringan komputer, pemrograman, dan teknologi informasi. Di SMK Plus Al-Hasanah, siswa TKJ akan mempelajari mata pelajaran seperti jaringan komputer, sistem operasi, pemrograman, dan desain website."]
+    },
+    {"tag": "TKR",
+     "patterns": ["Apa yang diajarkan di jurusan TKR?", "Mata pelajaran TKR", "Program studi TKR", "Jurusan TKR", "Detail TKR"],
+     "responses": ["Jurusan TKR (Teknik Kendaraan Ringan) adalah jurusan yang mempelajari tentang perawatan dan perbaikan kendaraan bermotor ringan seperti mobil dan sepeda motor. Di SMK Plus Al-Hasanah, siswa TKR akan mempelajari mata pelajaran seperti mekanika kendaraan, teknik mesin, dan teknik listrik kendaraan."]
+    },
+    {"tag": "TBSM",
+     "patterns": ["Apa saja yang diajarkan di jurusan TBSM?", "Mata pelajaran TBSM", "Program studi TBSM", "Jurusan TBSM", "Detail TBSM"],
+     "responses": ["Jurusan TBSM (Teknik Bisnis Sepeda Motor) adalah jurusan yang mempelajari tentang bisnis sepeda motor, perawatan, dan perbaikan sepeda motor. Di SMK Plus Al-Hasanah, siswa TBSM akan mempelajari mata pelajaran seperti teknik servis sepeda motor, manajemen bisnis, dan teknologi kendaraan bermotor."]
+    },
+    {"tag": "FARMASI",
+     "patterns": ["Apa yang dipelajari di jurusan FARMASI?", "Mata pelajaran FARMASI", "Program studi FARMASI", "Jurusan FARMASI", "Detail FARMASI"],
+     "responses": ["Jurusan FARMASI (Farmasi) adalah jurusan yang mempelajari tentang ilmu farmasi, obat-obatan, dan praktik farmasi. Di SMK Plus Al-Hasanah, siswa FARMASI akan mempelajari mata pelajaran seperti farmakologi, formulasi sediaan farmasi, dan praktek kerja industri farmasi."]
+    },
+    {"tag": "kuliner",
+     "patterns": ["Apa saja yang diajarkan di jurusan TATA BOGA?", "Mata pelajaran TATA BOGA", "Program studi TATA BOGA", "Jurusan TATA BOGA", "Detail TATA BOGA"],
+     "responses": ["Jurusan TATA BOGA (Tata Boga) adalah jurusan yang mempelajari tentang seni memasak, tata cara penyajian makanan, dan manajemen dapur. Di SMK Plus Al-Hasanah, siswa TATA BOGA akan mempelajari mata pelajaran seperti teknik memasak, seni dekorasi makanan, dan manajemen restoran."]
+    },
+    {
+  "tag": "Beasiswa",
+  "patterns": ["Apakah ada beasiswa ?", "Bisa daftar jalur beasiswa ?", "Beasiswa apa yang tersedia ?", "Cara dapat beasiswanya gimana ?", "Apa aja jenis beasiswanya ?","Apa persyaratan mendaftar lewat beasiswa ?", "SMK Plus Al-Hasanah menyediakan beasiswa bagi peserta didik baru yang akan mendaftar. Diantaranya adalah : 1. Beasiswa Akademik 2. Beasiswa Non Akademik 3. Beasiswa Kurang Mampu 4. Beasiswa Karyawan Budiman 5. Beasiswa Keluarga Budiman 6. Beasiswa Pendaftar Ulang Pertama", "Tentu saja ! SMK Plus Al-Hasanah menyediakan beasiswa bagi peserta didik baru yang akan mendaftar. Diantaranya adalah : 1. Beasiswa Akademik 2. Beasiswa Non Akademik 3. Beasiswa Kurang Mampu 4. Beasiswa Karyawan Budiman 5. Beasiswa Keluarga Budiman 6. Beasiswa Pendaftar Ulang Pertama"],
+  "responses": ["Persyaratan untuk mendapatkan beasiswa adalah sebagai berikut. 1. Beasiswa Akademik (Meraih ranking 1,2 atau 3 selama disekolah sebelumnya dan mempertahankan di SMK Plus Al-Hasanah, Meraih Juara atau Penghargaan Prestasi Akademik seperti Lomba Sains, Lomba MIPA dan lainnya disekolah sebelumnya dibuktikan dengan Sertifikat) 2. Beasiswa Non Akademik (Meraih Juara atau Penghargaan Prestasi di Ekstakurikuler atau kegiatan lainnya seperti Juara Bola Voli, Pasukan Pengibar Bendera Kabupaten, Mengikuti kegiatan Pramuka tingkat Daerah atau Nasional dan lainnya disekolah sebelumnya dibuktikan dengan Sertifikat) 3. Persyaratan untuk mendapatkan Beasiswa Kurang Mampu (Menyerahkan Surat Keterangan Tidak Mampu dari Desa setempat dan melampirkan foto Rumah) 4. Persyaratan untuk mendapatkan Beasiswa Karyawan Budiman (Anak dari karyawan budiman dibuktikan dengan Surat Keterangan dari PO. Budiman) 5. Persyaratan untuk mendapatkan Beasiswa Keluarga Budiman (Ketururan keluarga Eyang H. Suja'i atau H. Saleh Budiman dibuktikan dengan Memo dari Ketua Yayasan HS. Budiman 45 Dr. Ir. H. Dede Sudrajat, MP.) 6. Persyaratan untuk mendapatkan Beasiswa Pendaftar Ulang Pertama (250 Peserta Didik Baru yang mendaftar ulang tercepat dengan melakukan pembayaran pendaftaran PPDB SMK Plus Al-Hasanah)","Persyaratan untuk mendapatkan beasiswa adalah sebagai berikut. 1. Beasiswa Akademik (Meraih ranking 1,2 atau 3 selama disekolah sebelumnya dan mempertahankan di SMK Plus Al-Hasanah, Meraih Juara atau Penghargaan Prestasi Akademik seperti Lomba Sains, Lomba MIPA dan lainnya disekolah sebelumnya dibuktikan dengan Sertifikat) 2. Beasiswa Non Akademik (Meraih Juara atau Penghargaan Prestasi di Ekstakurikuler atau kegiatan lainnya seperti Juara Bola Voli, Pasukan Pengibar Bendera Kabupaten, Mengikuti kegiatan Pramuka tingkat Daerah atau Nasional dan lainnya disekolah sebelumnya dibuktikan dengan Sertifikat) 3. Persyaratan untuk mendapatkan Beasiswa Kurang Mampu (Menyerahkan Surat Keterangan Tidak Mampu dari Desa setempat dan melampirkan foto Rumah) 4. Persyaratan untuk mendapatkan Beasiswa Karyawan Budiman (Anak dari karyawan budiman dibuktikan dengan Surat Keterangan dari PO. Budiman) 5. Persyaratan untuk mendapatkan Beasiswa Keluarga Budiman (Ketururan keluarga Eyang H. Suja'i atau H. Saleh Budiman dibuktikan dengan Memo dari Ketua Yayasan HS. Budiman 45 Dr. Ir. H. Dede Sudrajat, MP.) 6. Persyaratan untuk mendapatkan Beasiswa Pendaftar Ulang Pertama (250 Peserta Didik Baru yang mendaftar ulang tercepat dengan melakukan pembayaran pendaftaran PPDB SMK Plus Al-Hasanah)"
+]},
+ {
+  "tag": "Beasiswa Prestasi Akademik",
+  "patterns": ["Apa itu beasiswa prestasi akademik ?", "Gimana dapetin beasiswa prestasi akademik ?","Apa persyaratan daftar beasiswa prestasi akademik ?","Beasiswa Jalur Prestasi Akademik","Syarat beasiswa prestasi akademik", "Beasiswa prestasi akademik gratis biaya apa ?"],
+  "responses": ["Beasiswa Akademik merupakan penghargaan kepada siswa berprestasi dengan meraih ranking 1,2 atau 3 disekolah sebelumnya, Meraih Juara atau Penghargaan Prestasi Akademik seperti Lomba Sains, Lomba MIPA dan lainnya disekolah sebelumnya", "Persyaratan untuk mendapatkan Beasiswa Akademik (Meraih ranking 1,2 atau 3 selama disekolah sebelumnya dan mempertahankan di SMK Plus Al-Hasanah, Meraih Juara atau Penghargaan Prestasi Akademik seperti Lomba Sains, Lomba MIPA dan lainnya disekolah sebelumnya dibuktikan dengan Sertifikat)"
+  ]},
+ {
+  "tag": "Beasiswa Prestasi Non Akademik",
+  "patterns": ["Apa itu beasiswa prestasi non akademik ?", "Gimana dapetin beasiswa prestasi non akademik ?", "Apa persyaratan daftar beasiswa prestasi non akademik ?","Beasiswa Jalur Prestasi Non Akademik","Syarat beasiswa prestasi non akademik", "Beasiswa prestasi non akademik gratis biaya apa ?"],
+  "responses": ["Beasiswa Non Akademik merupakan penghargaan kepada siswa berprestasi di bidang Olahraga, Teknologi dan Organisasi, Meraih Juara atau Penghargaan Prestasi seperti Lomba Kejuaraan Badminton,  Peserta Pramuka tingkat Nasional dan lainnya", "Persyaratan untuk mendapatkan Beasiswa Non Akademik (Meraih Juara atau Penghargaan Prestasi di Ekstakurikuler atau kegiatan lainnya seperti Juara Bola Voli, Pasukan Pengibar Bendera Kabupaten, Mengikuti kegiatan Pramuka tingkat Daerah atau Nasional dan lainnya disekolah sebelumnya dibuktikan dengan Sertifikat)"]
+ },
+ {
+  "tag": "Beasiswa Kurang Mampu",
+  "patterns": ["Apa itu beasiswa kurang mampu ?","Gimana dapetin beasiswa kurang mampu ?","Apa persyaratan daftar beasiswa kurang mampu ?","Beasiswa Kurang Mampu","Syarat beasiswa kurang mampu","Beasiswa kurang mampu gratis biaya apa ?"],
+  "responses": ["Beasiswa Kurang Mampu merupakan kepedulian SMK Plus Al-Hasanah terhadap peserta didik yang ingin melanjutkan sekolah di jenjang SMK namun terkendala oleh biaya", "Persyaratan untuk mendapatkan Beasiswa Kurang Mampu (Menyerahkan Surat Keterangan Tidak Mampu dari Desa setempat dan melampirkan foto Rumah)"
+]},
+ {
+  "tag": "Beasiswa Karyawan Budiman",
+  "patterns": ["Apa itu beasiswa karyawan budiman ?","Gimana dapetin beasiswa karyawan budiman ?","Apa persyaratan daftar beasiswa karyawan budiman ?","Beasiswa Karyawan Budiman","Syarat beasiswa karyawan budiman","Beasiswa karyawan budiman gratis biaya apa ?"],
+  "responses": ["Beasiswa Karyawan Budiman merupakan beasiswa bantuan PO Budiman kepada anak dari karyawan budiman yang ingin menyekolahkan anaknya di SMK Plus Al-Hasanah", "Persyaratan untuk mendapatkan Beasiswa Karyawan Budiman (Anak dari karyawan budiman dibuktikan dengan Surat Keterangan dari PO. Budiman)"
+]},
+ {
+  "tag": "Beasiswa Keluarga Budiman",
+  "patterns": ["Apa itu beasiswa keluarga budiman ?","Gimana dapetin beasiswa keluarga budiman ?","Apa persyaratan daftar beasiswa keluarga budiman ?","Beasiswa Keluarga Budiman","Syarat beasiswa keluarga budiman", "Beasiswa keluarga budiman gratis biaya apa ?"],
+  "responses": ["Beasiswa Keluarga Budiman kepedulian Ketua Yayasan HS. Budiman 45 kepada cucu cicit etururan keluarga Eyang H. Suja'i atau H. Saleh Budiman untuk memfasilitasi sekolah","Persyaratan untuk mendapatkan Beasiswa Keluarga Budiman (Ketururan keluarga Eyang H. Suja'i atau H. Saleh Budiman dibuktikan dengan Memo dari Ketua Yayasan HS. Budiman 45 Dr. Ir. H. Dede Sudrajat, MP.)"]
+ },
+ {
+  "tag": "Beasiswa 250 Pendaftar Ulang Pertama",
+  "patterns": ["Apa itu beasiswa pendaftar ulang pertama ?","Gimana dapetin beasiswa pendaftar ulang pertama ?",
+"Apa persyaratan daftar beasiswa pendaftar ulang pertama ?",
+"Beasiswa Pendaftar Ulang Pertama","Syarat beasiswa pendaftar ulang pertama","Beasiswa pendaftar ulang pertama gratis biaya apa ?"],
+  "responses": [" Beasiswa Pendaftar Ulang Pertama merupakan apresiasi bagi Peserta Didik Baru yang mendaftar ulang pertama sebanyak 250 orang tercepat","Persyaratan untuk mendapatkan Beasiswa Pendaftar Ulang Pertama (250 Peserta Didik Baru yang mendaftar ulang tercepat dengan melakukan pembayaran pendaftaran PPDB SMK Plus Al-Hasanah)"]
+ },
+ {
+  "tag": "Biaya Pendaftaran",
+  "patterns": ["Berapa biaya pendaftarannya ?","Biaya daftar ?","Harga pendaftaran ?","Apakah ada biaya pendaftaran ?","Apakah ada biaya daftar dan biaya daftar ulang ?"],
+  "responses": "Biaya Pendaftaran PPDB SMK Plus Al-Hasanah dilakukan saat daftar ulang berdasarkan Gelombang Pendaftaran, Rp. 450.000 untuk Biaya Pendaftaran Gelombang Pertama.- Rp. 500.000 untuk Biaya Pendaftaran Gelombang Kedua.- Rp. 550.000 untuk Biaya Pendaftaran Gelombang Ketiga.-"
+ },
+ {
+  "tag": "Metode Pembayaran Pendaftaran",
+  "patterns": ["Gimana bayar pendaftaran ?","Daftar lewat rekening","Bayar pendaftaran transfer","Bayar pendaftaran kemana ?",
+"Boleh transfer pendaftaran di brilink ?","Cara bayar pendaftaran "],
+  "responses": "Biaya Pendaftaran PPDB SMK Plus Al-Hasanah dilakukan saat daftar ulang berdasarkan Gelombang Pendaftaran, Rp. 450.000 untuk Biaya Pendaftaran Gelombang Pertama.- Rp. 500.000 untuk Biaya Pendaftaran Gelombang Kedua.- Rp. 550.000 untuk Biaya Pendaftaran Gelombang Ketiga.- Pembayaran bisa mengunjungi Business Center SMK Plus Al-Hasanah di Jl Raya Gunungtanjung KM. 8 atau bisa melalui rekening BNI 1166454540 a.n SMK Plus Al-Hasanah"
+ },
+ {
+  "tag": "SPP",
+  "patterns": ["Ada uang pangkal ?","Biaya iuran perbulan", "Berapa SPP bulanan ?","Harga iuran bulanan","Sumbangan Pembinaan Pendidikan berapa ?","SPP"],
+  "responses": "Biaya Sumbangan Pembinaan Pendidikan Bulanan atau SPP sebesar Rp. 100.000.- dibayarkan di tanggal 10 setiap bulannya"
+ },
+ {
+  "tag": "Metode Pembayaran SPP",
+  "patterns": ["Gimana bayar SPP ?","Bayar SPP lewat rekening","Bisa bayar SPP transfer gak ?","Bayarnya SPP kemana ?","Boleh transfer SPP di brilink ?","Cara bayar SPP"],
+  "responses": "Biaya Sumbangan Pembinaan Pendidikan Bulanan atau SPP sebesar Rp. 100.000.- dibayarkan di tanggal 10 setiap bulannya. Pembayaran bisa mengunjungi Business Center SMK Plus Al-Hasanah di Jl Raya Gunungtanjung KM. 8 atau bisa melalui rekening BNI 1166454540 a.n SMK Plus Al-Hasanah"
+ },
+ {
+  "tag": "DSPT",
+  "patterns": ["Ada iuran bangunan ?","Biaya iuran tahunan","Apa itu DSPT ?","Harga iuran pertahun","Dana Sumbangan Pendidikan Tahunan berapa ?","DSPT"],
+  "responses": "Biaya Data Sumbangan Pendidikan Tahunan atau DSPT sebesar Rp. 800.000.- dibayarkan di 4 tahap, yaitu awal semester ganjil, tengah semester ganjil, awal semester genap dan tengah semester genap atau tiap triwulan"
+ },
+ {
+  "tag": "Metode Pembayaran DSPT",
+  "patterns": ["Gimana bayar DSPT ?","Bayar DSPT lewat rekening","Bisa bayar DSPT transfer gak ?","Bayarnya DSPT kemana ?","Boleh transfer DSPT di brilink ?","Cara bayar DSPT"],
+  "responses": "Biaya Data Sumbangan Pendidikan Tahunan atau DSPT sebesar Rp. 800.000.- dibayarkan di 4 tahap, yaitu awal semester ganjil, tengah semester ganjil, awal semester genap dan tengah semester genap atau tiap triwulan. Pembayaran bisa mengunjungi Business Center SMK Plus Al-Hasanah di Jl Raya Gunungtanjung KM. 8 atau bisa melalui rekening BNI 1166454540 a.n SMK Plus Al-Hasanah"
+ },
+ {
+  "tag": "Informasi Pendaftaran",
+  "patterns": ["Kapan dibuka pendaftaran ?","Info Pendaftaran","Bagaimana cara mendaftar","Daftar Online PPDB","Apa syarat mendaftar ?","Proses pendaftaran"],
+  "responses": ["Pendaftaran PPDB SMK Plus Al-Hasanah dibuka dari tanggal 1 Januari 2024 s.d. 20 Juli 2024","Pendaftaran PPDB SMK Plus Al-Hasanah dibuka dari tanggal 1 Januari 2024 s.d. 20 Juli 2024. Info Pendaftaran bisa diakses di Website Sekolah www.smkplusalhasah.sch.id untuk pendaftaran bisa dilakukan secara langsung di Sekretariat PPDB SMK Plus Al-Hasanah atau secara online melalui laman berikut : www.ppbd.smkplusalhasanah.sch.id"]
+ },
+ {
+  "tag": "Informasi Gelombang Pendaftaran",
+  "patterns": ["Gelombang Pendaftaran","Kapan batas waktu pendaftaran ?","Gelombang 1 dibuka sampai kapan ?","Tanggal berapa gelombang 2 ditutup","Kapan pendaftaran ditutup ?","Info gelombang pendaftaran"],
+  "responses": "Pendaftaran PPDB SMK Plus Al-Hasanah dibuka dari tanggal 1 Januari 2024 s.d. 20 Juli 2024. Gelombang 1 (1 Januari s.d. 31 Maret 2024). Gelombang 2 (1 April s.d. 30 Mei 2024). Gelombang 3 (1 Juni s.d. 20 Juli 2024)."
+ },
+ {
+  "tag": "Program unggulan",
+  "patterns": ["Kenapa harus SMK Plus Al-Hasanah ?","Program unggulan sekolah","Kelebihan SMK Plus Alhasanah","Program sekolah","apa keunggulan smk alhsanah ?"],
+  "responses": "Keunggulan SMK Plus Al-Hasanah diantaranya memiliki tenaga pendidik yang profesional, fasilitas yang memadai, memiliki mitra industri yang bisa menjembatani lulusan untu bekerja di dunia industri, memiliki program yang didukung pemerintah nasional yaitu SMK Berbasis Industri 4.0 "
+ },
+ {
+  "tag": "Prestasi",
+  "patterns": ["Prestasi Sekolah","Prestasi SMK Plus Al-Hasanah","track record sekolah","penghargaan yang sudah diraih smk alhasanah ?","Prestasi Akademik Sekolah","Prestasi Non Akademik Sekolah"],
+  "responses": "SMK Plus AL-Hasanah memiliki segudang prestasi yang telah banyak diraih oleh siswa dan juga sekolah, sejak berdiri 2009 SMK Plus Al-Hasanah memiliki peran penting dalam dunia pendidikan di Kabupaten Tasikmalaya. Prestasi dibidang akademik seperti Lomba Kompetensi Siswa Nasional, Olimpiade Olahraga Siswa Nasional, Festival Lomba Siswa Nasional dibidang akademik serta Prestasi Pramuka di tingkat Jawa Barat, Paskibra dan lainnya di bidang non akademik."
+ }
+]
+}
